@@ -1,0 +1,12 @@
+services:
+  mdbook:
+    build:
+      context: .
+      dockerfile: mdbook-alpine.dockerfile
+    image: mdbook:alpine
+    user: "${UID:-1000}:${GID:-1000}"
+    working_dir: /home/user/industrial-cpp-book
+    volumes:
+      - "${HOME}/industrial-cpp-book:/home/user/industrial-cpp-book"
+    ports:
+      - "3000:3000"

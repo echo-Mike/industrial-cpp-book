@@ -1,0 +1,7 @@
+[book]
+title = "Индустриальный C++"
+authors = ["Демченко Михаил"]
+language = "ru"
+
+[output.html]
+additional-css = ["src/custom.css"]

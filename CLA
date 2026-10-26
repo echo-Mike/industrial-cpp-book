@@ -1,0 +1,56 @@
+Individual Contributor License Agreement
+Thank you for your interest in contributing to industrial-cpp-book ("We" or "Us"). This contributor agreement ("Agreement") documents the rights granted by contributors to Us. To make this document effective, please sign it via our automated CLA assistant when prompted on your pull request. This is a legally binding document, so please read it carefully before agreeing to it.
+
+1. Definitions
+"You" means the individual who Submits a Contribution to Us. You confirm that you are acting in your personal, individual capacity and not on behalf of any employer or other legal entity.
+
+"Contribution" means any work of authorship that is Submitted by You to Us in which You own or assert ownership of the Copyright. This includes text, media, diagrams, schemas, code, and any other material intended for inclusion in the book or its associated materials.
+
+"Copyright" means all rights protecting works of authorship owned or controlled by You, including copyright, moral and neighboring rights, as appropriate, for the full term of their existence including any extensions.
+
+"Material" means the work of authorship which is made available by Us to third parties. After You Submit the Contribution, it may be included in the Material.
+
+"Submit" means any form of electronic, verbal, or written communication sent to Us or our representatives, including but not limited to communication on source code control systems and issue tracking systems managed by Us for the purpose of discussing and improving the Material, but excluding communication that is conspicuously marked or otherwise designated in writing by You as "Not a Contribution".
+
+"Media" means any portion of a Contribution which is not software.
+
+2. Grant of Rights
+2.1 Copyright License
+(a) You retain ownership of the Copyright in Your Contribution and have the same rights to use or license the Contribution which You would have had without entering into the Agreement.
+
+(b) To the maximum extent permitted by the relevant law, You grant to Us a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license under the Copyright covering the Contribution, with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute the Contribution as part of the Material. This license expressly includes the right for Us to use, reproduce, and distribute Your Contribution in commercial editions of the Material, including hard copy sales, notwithstanding the public non-commercial license (CC BY-NC-SA) under which the Material is otherwise made available.
+
+2.2 Patent License
+For patent claims including, without limitation, method, process, and apparatus claims which You own, control or have the right to grant, now or in the future, You grant to Us a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable patent license, with the right to sublicense these rights to multiple tiers of sublicensees, to make, have made, use, sell, offer for sale, import and otherwise transfer the Contribution and the Contribution in combination with the Material (and portions of such combination). This license is granted only to the extent that the exercise of the licensed rights infringes such patent claims.
+
+2.3 Outbound License
+As a condition on the grant of rights in Sections 2.1 and 2.2, We agree to license the Contribution only under the terms of the license or licenses which We are using on the Submission Date for the Material (including any rights to adopt any future version of a license if permitted). For clarity, the public outbound license is currently CC BY-NC-SA 4.0.
+
+3. Representations and Warranties
+You represent and warrant that:
+
+3.1 Individual Capacity. You are the sole author of the Contribution and are contributing as an individual, not as part of your employment or on behalf of any organization, corporation, or other legal entity. You have the legal right to grant the licenses described in this Agreement. If your employer has policies that claim ownership of your work, you have obtained permission to contribute independently.
+
+3.2 Original Creation. Each of Your Contributions is Your original creation (see Section 4 for submissions on behalf of others).
+
+3.3 No Infringement. To the best of Your knowledge, Your Contribution does not infringe the intellectual property rights of any third party.
+
+3.4 AI/LLM Contribution Policy. You represent and warrant that:
+
+(a) Book Content and Media. Any Contribution intended for inclusion in the book's content or media (including text, diagrams, schemas, code examples, and illustrations) is entirely human-authored and does not contain any AI-generated or AI-assisted material.
+
+(b) Repository Infrastructure. If Your Contribution consists of repository infrastructure, tooling, templates, or documentation about the repository itself (rather than the book's content), and You used AI/LLM tools to generate or assist with it, You have disclosed this use at the pull request level in accordance with the project's contribution guidelines.
+
+(c) Non-Copyrightable Material. You understand that, in many jurisdictions, work generated entirely by artificial intelligence is not protected by copyright. You acknowledge that You do not represent any AI-generated portion of a Contribution as owned intellectual property, and You understand that We accept such material on that basis.
+
+(d) Review. If any part of Your Contribution was created with the assistance of generative AI tools, You have reviewed and understood the AI-generated output incorporated in the Contribution.
+
+4. Submissions on Behalf of Others
+Should You wish to submit work that is not Your original creation, You may submit it to Us separately from any Contribution, identifying the complete details of its source and of any license or other restriction (including, but not limited to, related patents, trademarks, and license agreements) of which You are personally aware, and conspicuously marking the work as "Submitted on behalf of a third-party: [named here]".
+
+5. Miscellaneous
+5.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of England & Wales, excluding its conflict-of-law provisions.
+
+5.2 Entire Agreement. This Agreement sets out the entire agreement between You and Us regarding its subject matter and supersedes all prior agreements and understandings relating to that subject matter.
+
+5.3 Severability. If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
