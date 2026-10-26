@@ -5,6 +5,7 @@ services:
       dockerfile: mdbook-alpine.dockerfile
     image: mdbook:alpine
     user: "${UID:-1000}:${GID:-1000}"
+    userns_mode: keep-id
     working_dir: /home/user/industrial-cpp-book
     volumes:
       - "${HOME}/industrial-cpp-book:/home/user/industrial-cpp-book"

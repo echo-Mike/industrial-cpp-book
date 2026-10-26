@@ -1,0 +1,66 @@
+<template id="cookies-eu-banner-template">
+  <div id="cookies-eu-banner" style="
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 99999;
+      background: var(--fg, #1f1f1f);
+      color: var(--bg, #ffffff);
+      border-top: 1px solid var(--table-border-color, #e0e0e0);
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14pt;
+      line-height: 1.4;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+    ">
+    <span style="flex: 1 1 320px;">
+      We use cookies to analyze traffic and improve your experience.
+    </span>
+    <div style="display: flex; gap: 0.5rem; flex-shrink: 0;">
+      <button id="cookies-eu-reject" type="button" style="
+          background: transparent;
+          color: inherit;
+          border: 1px solid currentColor;
+          border-radius: 4px;
+          padding: 0.4rem 1rem;
+          cursor: pointer;
+          font-size: 14pt;
+        ">
+        Reject
+      </button>
+      <button id="cookies-eu-accept" type="button" style="
+          background: var(--links, #4b8bbe);
+          color: #fff;
+          border: 1px solid var(--links, #4b8bbe);
+          border-radius: 4px;
+          padding: 0.4rem 1rem;
+          cursor: pointer;
+          font-size: 14pt;
+        ">
+        Accept
+      </button>
+    </div>
+  </div>
+</template>
+
+<noscript>
+  <div style="
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 99999;
+      background: #1f1f1f;
+      color: #fff;
+      padding: 1rem;
+      font-size: 0.9rem;
+      text-align: center;
+    ">
+    This site uses cookies for analytics. Please enable JavaScript to manage your cookie preferences.
+  </div>
+</noscript>

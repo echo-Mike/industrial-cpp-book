@@ -26,7 +26,9 @@
 
 ```bash
 docker build -t mdbook:alpine -f mdbook-alpine.dockerfile .
+
 docker run -it --rm --user $(id -u):$(id -g) -p 3000:3000 -v $HOME/industrial-cpp-book:/home/user/industrial-cpp-book -w /home/user/industrial-cpp-book mdbook:alpine /bin/bash
+
 mdbook serve -n 0.0.0.0
 ```
 
@@ -39,7 +41,7 @@ docker compose up -d
 
 # Лицензионные ограничения
 
-![](./src/pictures/by-nc-sa.png)
+<img src="./src/pictures/by-nc-sa.png" height="40">
 
 industrial-cpp-book (c) by Demchenko Mikhail
 
