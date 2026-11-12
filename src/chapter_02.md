@@ -1520,7 +1520,7 @@ struct MyAggregate {
 MyAggregate foo(MyAggregate a);
 
 // Инициализация списком (list initialization)
-// Примеры  direct-list initialization
+// Примеры direct-list initialization
 MyAggregate list_initialized{1, 2, 1.0f};
 MyAggregate list_initialized2{.a = 1, .b = 2, .c{1.0f}};
 MyAggregate{1, 2, 1.0f};
@@ -1594,7 +1594,7 @@ consteval unsigned multiply(unsigned a, unsigned b) {
 constinit unsigned GreatValue = multiply(128215, 29161);
 // Использование в константном контексте
 int array1[GreatValue];
-// Констэкспр функция
+// constexpr функция
 constexpr int add(int a, int b) {
   return a + b;
 }
